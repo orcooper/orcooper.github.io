@@ -380,3 +380,61 @@ footer p {
         flex: 0 0 4em;
     }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: rgb(56, 54, 51);
+    }
+
+    p {
+        color: rgb(216, 216, 216);
+
+    }
+    
+    h2 {
+        color: rgb(216, 216, 216);
+    }
+    
+    aside {
+        background-color: rgb(16, 11, 8)
+    }
+    
+    aside h2, aside p {
+        color: rgb(216, 216, 216);
+    }
+
+    h1 {  
+        background-image: url("NOISE-logo-dark-mode.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }  
+
+    h1 img {  
+        opacity: 0;  
+        }  
+
+    li a {
+        color: rgb(37, 159, 237);
+    }    
+
+    figcaption {
+        color: rgb(216, 216, 216);
+    }
+
+    p.credits {
+        color:rgb(216, 216, 216)
+    }
+
+    p.quote {
+        color:rgb(37, 159, 237)
+    }
+
+    div.newsletter li{
+        color:rgb(216, 216, 216)
+    }
+    
+    .newsletter-type, .newsletter-title{
+        color: rgb(37, 159, 237);
+    }
+
+}
